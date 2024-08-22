@@ -1,0 +1,146 @@
+    <section class="roadmap section-padding-0-100" id="roadmap">
+        <div class="section-heading text-center">
+            
+            <h2 class="fadeInUp" data-wow-delay="0.3s">Our ICO Roadmap</h2>
+ </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"><span class="year">2024</span> <span class="month">TBD</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">When Launch...</h5>
+                                <p class="less-line-height w-text">  This will be the day when the token becomes available for trading and the community can start participating in the ecosystem</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"><span class="year">2024</span> <span class="month">TBD</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">when tokenomics...</h5>
+                                <p class="less-line-height w-text">  The detailed tokenomics will be released shortly after the launch, providing a comprehensive breakdown of the token distribution, supply, and allocation</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"><span class="year">2024</span> <span class="month">TBD</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">when Airdrop...</h5>
+                                <p class="less-line-height w-text">  This will be a key opportunity for users to engage with the project and become part of the initial community.</p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer"> <span class="date"><span class="year">2024</span> <span class="month">TBD</span> </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="arrowo"></span>
+                                <h5 class="title">when listing...</h5>
+                                <p class="less-line-height w-text">The token is expected to be listed on major exchanges starting from [insert specific date], allowing users to buy, sell, and trade it in the open market</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ##### Token Info Start ##### -->
+    <div class="section-padding-100 banner-bg relative" id="features">
+        <div class="bubble-wrapper">
+            <img src="img/core-img/chat-bubble.png" alt="">
+            <h2 class="coin-text">slouch !!</h2>
+        </div>
+        <div class="container">
+            <div class="section-heading text-center">
+                
+                <div class="dream-dots justify-content-center fadeInUp" data-wow-delay="0.2s">
+                    <span class="gradient-t green">Token FAQ</span>
+                </div>
+                <h2 class="fadeInUp" data-wow-delay="0.3s">  Frequently Questions</h2>
+            </div>
+            <div class="row align-items-center">
+
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="dream-faq-area mt-s ">
+                        <dl style="margin-bottom:0">
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.2s">What are the objectives of this Token?</dt>
+                            <dd class="fadeInUp" data-wow-delay="0.3s">
+                            <p>The objectives of this token are to engage the community through memes and humor, leverage popular culture in the crypto space, and create value for holders. It also aims to support charitable causes and explore innovative concepts in cryptocurrency.</p>   
+                            </dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.3s">What is the best features and services we deiver?</dt>
+                            <dd>
+                                <p>
+                                    Our token offers engaging meme content and a strong community presence. We provide easy access to participate in airdrops and giveaways. Additionally, we offer transparent updates and active support through our official channels
+                                </p></dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.4s">Why this ICO important to me?</dt>
+                            <dd>
+                                <p>
+                                    This ICO is important because it provides an opportunity to be part of a unique and fun project from its early stages. It allows you to acquire tokens before they potentially increase in value. Additionally, participating supports a vibrant community and innovative ideas in the crypto space.
+                                </p></dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.5s">how may I take part in purchasing this Token?</dt>
+                            <dd>
+                                <p>
+                                    To purchase the token, first register on our website or a participating exchange and complete any necessary KYC processes. Next, fund your account using the accepted payment methods. Once your account is set up, you can buy the token through the platform's interface during the ICO or trading phase.
+                                </p> </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="dream-faq-area mt-s ">
+                        <dl style="margin-bottom:0">
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.2s">How many are we?</dt>
+                            <dd class="fadeInUp" data-wow-delay="0.3s">
+                             <p>
+                                Our community is thriving with passionate supporters and active participants. The strong engagement and enthusiasm from our members highlight the project's widespread appeal and success.
+                             </p> </dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.3s">What will the price be</dt>
+                            <dd>
+                                <p>
+                                    he token price will be determined based on the ICO stage and market conditions. Details about the initial price and any potential changes will be provided before the ICO starts. For the latest pricing information, check our official announcements and website.
+                                </p></dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.4s">What about the whitepaper?</dt>
+                            <dd>
+                           <p>
+                            The whitepaper provides detailed information about the project, including its goals, tokenomics, 
+                            and technical aspects. It will be made available soon for download. 
+                           </p></dd>
+                            <!-- Single FAQ Area -->
+                            <dt class="wave fadeInUp" data-wow-delay="0.5s">Will there be airdrops?</dt>
+                            <dd>
+                             <p>
+                                Yes, there will be airdrops as part of our promotional campaign. Details on how to participate and the schedule will be announced on our official channels. Keep an eye on our website and social media for updates.
+                             </p></dd>
+                        </dl>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
