@@ -3023,6 +3023,18 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 /* ##### Service Area CSS ##### */
 
+.service-container {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+.steps-text {
+    font-size: 40px;
+    color: #638BEE;
+
+}
+
 .service_single_content {
     position: relative;
     z-index: 1;
@@ -6587,6 +6599,14 @@ body.light-version {
 
     .agenda-header {
         font-size: 20px;
+    }
+
+    .ca-text{
+        font-size: 15px;
+    }
+
+    .election-text {
+        font-size: 15px;
     }
 }
 
