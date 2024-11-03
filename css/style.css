@@ -1063,9 +1063,9 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 /* mobile view */
 @media (max-width:500px)
 {
-    .navbar{ background: #AC7E07;}
+    .navbar{ background: #ffffff;}
     .navbar-nav{
-        border-top:1px solid #fed136;
+        border-top:1px solid #000000;
         color:#AC7E07;
         z-index:1;
         margin-top:5px;
@@ -1099,7 +1099,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     .navbar-expand-lg.navbar-dark {background: rgb(215, 223, 239);}
     .navbar-collapse{
         padding-top: 20px;
-        background: #FFBB0B;
     }
 }
 .navbar-white.shrink .navbar-brand,
@@ -1759,6 +1758,12 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .trump-img {
     background-color: #902828;
     border-radius: 5px;
+}
+
+.countdown {
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: #012969;
 }
 
 .svg-img {
@@ -6574,6 +6579,17 @@ body.light-version {
     list-style-position: inside;
 }
 
+@media (max-width:500px) {
+    .list-it, .list-it-rt, .list-it-d {
+        font-size: 13px;
+        margin-left: 25px;
+    }
+
+    .agenda-header {
+        font-size: 20px;
+    }
+}
+
 .trump-section {
     text-align: right;
     background-color: #902828;
@@ -6583,6 +6599,15 @@ body.light-version {
 
 .header-donald {
     direction: rtl;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.header-kamala {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.image-container{
+
 }
 
 .kamala-section {
@@ -6596,9 +6621,13 @@ body.light-version {
 }
 
 .total-text {
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Amatic SC", sans-serif;
     color: #23498F;
+}
+
+.amatic {
+    font-family: "Amatic SC", sans-serif;
 }
 
 .trump-votes {
