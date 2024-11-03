@@ -39,6 +39,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 /*** 
 
@@ -54,7 +56,7 @@
 @import 'owl.carousel.min.css';
 @import 'magnific-popup.css';
 @import 'animated-headline.css';
-@import 'font-awesome.min.css';
+/* @import 'font-awesome.min.css'; */
 @import 'font-icons.css';
 @import 'themify-icons.css';
 
@@ -85,8 +87,8 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    color: black;
     font-family: 'Poppins', sans-serif;
-    background: url(../img/svg/shape_1.svg), #014318;
     overflow-x: hidden;
 }
 .darker-blue{
@@ -106,8 +108,7 @@ body {
 }
 h1,
 h2{
-    font-family: 'ChineseShangaiDemoVersionRegular', sans-serif;
-    color: #fff;
+    color: #000000;
     line-height: 1.4;
     font-weight: 700;
 }
@@ -115,8 +116,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'ChineseShangaiDemoVersionRegular', sans-serif;
-    color: #fff;
+    color: #000000;
     line-height: 1.4;
     font-weight: 500;
 }
@@ -136,10 +136,8 @@ li {
 }
 
 p {
-    font-family: 'Takoyaki', sans-serif;
     line-height: 1.9;
     color: rgba(0, 0, 0, 0.8);
-    font-size: 28px;
 }
 
 img {
@@ -750,7 +748,6 @@ ol {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    text-shadow: 2px 0.1em 0 hsl(200deg 82% 91%);
 }
 
 .dream-dots span:first-child {
@@ -781,28 +778,148 @@ ol {
     background-color: #8c7ae6;
 }
 
-.login-btn {
+.trump-btn {
     position: relative;
     z-index: 1;
     color: #fff;
-    font-size: 12px !important;
-    text-transform: uppercase;
+    font-size: 22px !important;
     line-height: 33px;
     padding: 0 20px;
     min-width: 100px;
     color: #fff !important;
-    background: #ED5452;
+    background: #BE092D;
     height: 35px;
     border-radius: 5px;
     border: 1px solid #fff;
     letter-spacing: 1px;
 }
 
+.bet-btn {
+    color: #fff !important;
+    background: #414141;
+
+}
+
+.harris-btn {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 22px !important;
+    line-height: 33px;
+    padding: 0 20px;
+    min-width: 100px;
+    color: #fff !important;
+    background: #30559A;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+ }
+
+.login-btn {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 22px !important;
+    font-family: "Amatic SC", sans-serif;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 0 20px;
+    min-width: 100px;
+    color: #fff !important;
+    background: #FF3750;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+}
+
+.purple-btn {
+    color: #fff;
+    font-size: 22px !important;
+    font-family: "Amatic SC", sans-serif;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 5px 20px;
+    min-width: 80px;
+    color: #fff !important;
+    background: #A99DF4;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+}
+
+.blue-btn {
+    color: #fff;
+    font-size: 22px !important;
+    font-family: "Amatic SC", sans-serif;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 5px 20px;
+    min-width: 80px;
+    color: #fff !important;
+    background: #638BEE;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+}
+
+.orange-btn {
+    color: #fff;
+    font-size: 22px !important;
+    font-family: "Amatic SC", sans-serif;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 5px 20px;
+    min-width: 80px;
+    color: #fff !important;
+    background: #E74600;
+    height: 45px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.dark-box {
+    background-color: #1C212E;
+}
+
+.orange-text {
+    color: #E74600; 
+}
+
+.dark-btn {
+    color: #fff;
+    font-size: 22px !important;
+    font-family: "Amatic SC", sans-serif;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 5px 20px;
+    min-width: 80px;
+    color: #fff !important;
+    background: #000000;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+}
+
+.dark-btn-img {
+    height: 32px;
+}
+
+.about {
+    font-size: 100px;
+    font-family: "Amatic SC", sans-serif;
+    color: #113577;
+}
+
 .login-btn:hover,
 .login-btn:focus {
     color: #fff;
-    background: #fb4e4e;
-    border-color: #fb4e4e;
+    background: #086aac;
+    border-color: ##1C93E3;
 }
 
 .dream-btn {
@@ -904,10 +1021,11 @@ ol {
 .lh-55px{line-height: 55px}
 .navbar-nav .nav-item .nav-link{
     padding: 20px 12px;
-    font-size: 16px;
+    font-size:20px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: #636BFF;
+    font-family: "Amatic SC", sans-serif;
 }
 .navbar-nav .nav-item .nav-link:hover{color:#fed136;}
 .navbar-expand-md .navbar-nav .dropdown-menu{
@@ -1016,10 +1134,65 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     justify-content: center;
     align-items: center;
 }
+
+.white-house{
+    position: relative;
+    min-height: 730px;
+    background: url('../img/bg-img/bg-3.png') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    padding-top: 5rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.white-house-plain{
+    position: relative;
+    min-height: 730px;
+    background: url('../img/bg-img/bg-4.png') no-repeat bottom center;
+    background-size: cover;
+    padding-top: 5rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.abs {
+    position: absolute;
+    bottom: -5rem;
+}
+
+.small-img {
+    height: 30%;
+
+}
+
+.speech-img {
+    height: 70%;
+}
+
+.mt-big {
+    margin-top: 100px;
+}
+
+.white-house-heading {
+    font-size: 60px;
+    font-family: "Amatic SC", sans-serif;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.face-down {
+    margin-top: 180px;
+}
+
+.blood-red {
+    color: #B52929;
+
+}
+
 .hero-section.de-3{
     position: relative;
     min-height: 730px;
-    background: url(../img/bg-img/bg-3.png) no-repeat top center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -1220,7 +1393,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .welcome-content {
     position: relative;
     z-index: 1;
-    margin-top: 90px;
+ 
 }
 @media (max-width: 992px){
     .gaming .welcome-content{
@@ -1236,7 +1409,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     padding-left: 40px;
     font-size: 18px;
     position: relative;
-    text-shadow: 2px 0.1em 0 hsl(200deg 50% 30%);
 }
 .special-head:before{
     content: '';
@@ -1571,22 +1743,56 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     margin-bottom: 20px;
 }
 .welcome-content h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
     margin-bottom: 20px;
-    letter-spacing: 3px;
-    max-inline-size: 15ch;
-    text-shadow: 0.1em 0.1em 0 hsl(200deg 50% 30%);
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 .welcome-content h1.artficial{
     font-size: 38px
 }
 .welcome-content p {
-    font-size: 28px;
     line-height: 1.0;
-    color: #fff;
-    margin-bottom: 30px;
 } 
+
+.trump-img {
+    background-color: #902828;
+    border-radius: 5px;
+}
+
+.svg-img {
+    background-color: black;
+    border-radius: 5px;
+    height: 60px;
+    padding: 5px;
+}
+
+.tel-img {
+    background-color: #5B9CFF;
+    border-radius: 5px;
+    height: 60px;
+    padding: 5px;
+}
+
+.gh-img {
+    background-color: black;
+    border-radius: 5px;
+    height: 60px;
+    padding: 5px;
+}
+
+.ico-img {
+    background-color: #03ACD0;
+    border-radius: 5px;
+    height: 60px;
+    padding: 5px;
+}
+
+.kamala-img {
+    background-color: #20355D;
+    border-radius: 5px;
+}
 
 .character-features{
     position: relative;
@@ -1821,7 +2027,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     color:#3a9102 !important;
     font-weight: 600;
     font-size: 18px;
-    text-shadow: 2px 0.1em 0 hsl(116deg 78% 53%);
 }
 .bold{
     font-weight: 600 !important
@@ -1899,8 +2104,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .who-we-contant h4 {
     margin-bottom: 20px;
     font-size: 40px;
-    font-family: 'ChineseShangaiDemoVersionRegular', sans-serif;
-    text-shadow: 0.1em 0.1em 0 hsl(200deg 50% 30%);
 }
 
 .our-mission-area {
@@ -2689,7 +2892,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     transform: translate(-50%,-50%);
     font-size: 24px;
     font-weight: 600;
-    text-shadow: 0 0 5px rgba(0,243,255,.5);
 }
 .check .check-icon {
     position: absolute;
@@ -2847,7 +3049,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     border-radius: 10px;
     text-align: left;
     /* background: url(../img/svg/shape_1.svg),#FFBB0B; */
-    background: #FFBB0B;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: none;
@@ -2947,7 +3148,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .service_single_content h6 {
     margin-bottom: 15px;
     font-size: 22px;
-    font-family: 'ChineseShangaiDemoVersionRegular', sans-serif;
 }
 
 .side-feature-list-item {
@@ -4835,8 +5035,6 @@ textarea:required {
 
 .footer-content-area{
     padding: 80px 0;
-    margin-top: 100px;
-    background: #684a00;
 }
 .footer-content-area.demo{
     margin-top: 70px
@@ -4873,9 +5071,17 @@ textarea:required {
     color: #fff;
 }
 
+.footer-social-info {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
 .footer-social-info a i {
-    font-size: 14px;
+    font-size: 48px;
     color: #fff;
+    padding: 5px;
     margin-right: 15px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -5273,11 +5479,9 @@ textarea:required {
     font-size: 20px;
     text-align: left;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
 }
 .counter-wrapper h5{
-    font-family: 'ChineseShangaiDemoVersionRegular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -5958,7 +6162,6 @@ textarea:required {
     top: -260px;
     right: -114px;
     font-size: 50px;
-    text-shadow: 0.1em 0.1em 0 hsl(200deg 50% 30%);
     transform: rotate(-32deg);
 }
 @media (max-width: 992px){
@@ -6302,9 +6505,110 @@ body.light-version {
     color: #333
 }
 
-
-
 /* my styles */
 .less-line-height {
     line-height: 1.0;
 }
+
+.clipboard-container {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.clipboard-text {
+    background-color: black;
+    height: 30px;
+    /* margin: 1px; */
+    width:  300px;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.no-margin-bottom {
+    margin-bottom: 0rem;
+}
+
+.copy-btn {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    line-height: 33px;
+    padding: 0 20px;
+    min-width: 100px;
+    color: #fff !important;
+    background: #684A00;
+    height: 30px;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+}
+
+.agenda-header {
+    color: #902828;
+    background-color: white;
+    font-size: 30px;
+}
+
+.list-it {
+    list-style: disc;
+    margin-left: 45px;
+}
+
+.list-it-rt {
+    list-style: disc;
+    margin-left: 45px;
+}
+
+.list-it-d {
+    list-style: disc;
+    margin-left: 45px;
+    list-style-position: inside;
+}
+
+.trump-section {
+    text-align: right;
+    background-color: #902828;
+    /* direction: rtl; */
+    color: white;
+}
+
+.header-donald {
+    direction: rtl;
+}
+
+.kamala-section {
+    background-color: #20355D;
+    color: white;
+}
+
+.election-text {
+    font-family: "Josefin Sans", sans-serif;
+    color: #23498F;
+}
+
+.total-text {
+    font-size: 40px;
+    font-family: "Amatic SC", sans-serif;
+    color: #23498F;
+}
+
+.trump-votes {
+    color: red !important;
+}
+
+.harris-votes {
+    color: #30559A !important;
+}
+
+/* .img-pod {
+    height: 400px;
+} */

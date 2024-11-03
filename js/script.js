@@ -72,12 +72,7 @@
         });
     }
 
-     // :: Preloader Active Code
-    $window.on('load', function () {
-        $('#preloader').fadeOut('1000', function () {
-            $(this).remove();
-        });
-    });
+
 
     
     // :: ScrollUp Active Code
