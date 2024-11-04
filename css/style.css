@@ -156,7 +156,8 @@ ol {
 
 .section-header{
     position: relative;
-    margin-bottom: 50px
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .section-title {
     font-size: 44px;
@@ -461,6 +462,11 @@ ol {
 .pt-60{
     padding-top: 60px
 }
+
+.social-space {
+    margin-left: 100px;
+}
+
 @media (max-width: 992px){
     .double-bg{
         background-size: cover !important
@@ -628,7 +634,8 @@ ol {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .section-heading h2 {
@@ -909,7 +916,7 @@ ol {
 }
 
 .about {
-    font-size: 100px;
+    font-size: 60px;
     font-family: "Amatic SC", sans-serif;
     color: #113577;
 }
@@ -1007,6 +1014,7 @@ ol {
     max-height: 3rem;
 }
 }
+
 /* ##### 2.0 Header Area CSS ##### */
 .nav{transition: all .5s ease-in}
 .navbar-brand {
@@ -1020,8 +1028,8 @@ ol {
 .lh-55px{line-height: 55px}
 .navbar-nav .nav-item .nav-link{
     padding: 20px 12px;
-    font-size:20px;
-    font-weight: 700;
+    font-size: 23px;
+    font-weight: 900;
     letter-spacing: 1px;
     color: #636BFF;
     font-family: "Amatic SC", sans-serif;
@@ -1741,7 +1749,6 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     margin-bottom: 20px;
 }
 .welcome-content h1 {
-    font-size: 70px;
     font-weight: 900;
     margin-bottom: 20px;
     margin-left: 5rem;
@@ -6571,7 +6578,13 @@ body.light-version {
 .agenda-header {
     color: #902828;
     background-color: white;
-    font-size: 30px;
+    font-size: 18px;
+}
+
+.small-agenda-header {
+    color: #902828;
+    background-color: white;
+    font-size: 18px;
 }
 
 .list-it {
@@ -6590,6 +6603,14 @@ body.light-version {
     list-style-position: inside;
 }
 
+.election-text {
+    font-size: 70px;
+}
+
+.join-font {
+    font-size: 60px;
+}
+
 @media (max-width:500px) {
     .list-it, .list-it-rt, .list-it-d {
         font-size: 13px;
@@ -6605,8 +6626,27 @@ body.light-version {
     }
 
     .election-text {
-        font-size: 15px;
+        font-size: 50px;
     }
+
+    .join-font {
+        font-size: 40px;
+    }
+
+    .social-space {
+        margin-left: 30px;
+    }
+
+    .white-house-heading {
+        font-size: 40px;
+    }
+
+    /* .trump-btn, .harris-btn {
+        font-size: 10px !important;
+        line-height: 23px;
+        min-width: 60px;
+        height: 25px;
+    } */
 }
 
 .trump-section {
@@ -6616,6 +6656,10 @@ body.light-version {
     color: white;
 }
 
+.sm-nomics {
+    font-size: 12px;
+}
+
 .header-donald {
     direction: rtl;
     font-family: "Josefin Sans", sans-serif;
@@ -6623,10 +6667,6 @@ body.light-version {
 
 .header-kamala {
     font-family: "Josefin Sans", sans-serif;
-}
-
-.image-container{
-
 }
 
 .kamala-section {
@@ -6640,9 +6680,13 @@ body.light-version {
 }
 
 .total-text {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Amatic SC", sans-serif;
     color: #23498F;
+}
+
+.total-votes-text {
+    font-size: 30px;
 }
 
 .amatic {
