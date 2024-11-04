@@ -1155,7 +1155,10 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .white-house-plain{
     position: relative;
     min-height: 730px;
-    background: url('../img/bg-img/bg-4.png') no-repeat bottom center;
+    background-image: url('../img/bg-img/bg-4.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5rem;
     /* justify-content: center; */
@@ -6699,6 +6702,12 @@ body.light-version {
 
 .harris-votes {
     color: #30559A !important;
+}
+
+@media (max-width:500px) {
+    .trump-btn, .harris-btn, .trump-votes, .harris-votes {
+        font-size: 12px !important;
+    }
 }
 
 /* .img-pod {
