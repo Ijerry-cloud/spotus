@@ -30,18 +30,19 @@
 
 
     <!-- ##### Header Area Start ##### -->
-    <nav class="navbar navbar-expand-lg navbar-white" id="banner">
+    <nav class="navbar navbar-expand-lg" id="banner">
         <!-- Brand -->
-        <a class="navbar-brand col-2" href="https://potusolana.com/"><span><img draggable="false" src="img/core-img/logo.svg" alt="logo"></span>
+        <a class="navbar-brand col-md-3 col-4" href="https://potusolana.com/"><span><img draggable="false"
+                    src="img/core-img/logo.svg" alt="logo"></span>
         </a>
 
         <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler py-1 px-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <img src="img/core-img/navbar.svg" class="breadcrumber" alt="">
         </button>
 
         <!-- Navbar links -->
-        <div class="col-10 collapse navbar-collapse justify-content-between align-items-center" id="collapsibleNavbar">
+        <div class="col-9 collapse navbar-collapse justify-content-between align-items-center" id="collapsibleNavbar">
             <ul class="navbar-nav">
 
                 <li class="nav-item">
@@ -60,16 +61,16 @@
                     <a class="nav-link ml-30" href="#community">COMMUNITY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ml-30" href="#litepaper">LITEPAPER</a>
+                    <a class="nav-link ml-30" href="https://drive.google.com/file/d/1x6_lEikHegb-OAbjebVKayQjr26Bpk1r/view" target="_blank">LITEPAPER</a>
                 </li>
 
 
             </ul>
             <div class="">
-                <a href="#" target="_blank" class="btn login-btn ml-50">BUY $POTUS</a>
+                <a href="https://jup.ag/" target="_blank" class="btn login-btn ml-50">BUY $POTUS</a>
             </div>
 
-         
+
         </div>
 
     </nav>
@@ -79,20 +80,12 @@
     <section class="section-padding relative" id="home">
         <!-- Hero Content -->
         <div class="hero-section-content">
-            <div class="row">
+            <div class="d-md-flex flex-md-row">
                 <!-- Welcome Content -->
+                <div class="col-lg-7 order-1 order-md-2">
+                    <div class="welcome-content d-flex flex-column justify-content-center align-items-center">
 
-                <div class="col-lg-5 order-2 order-md-1">
-                    <div class="mt-s">
-                        <img src="img/core-img/header-img2.png" alt="">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-7 col-md-12 order-1 order-m">
-                    <div class="welcome-content">
-                        <!-- <div class="promo-section">
-                            <h3 class="special-head">Doing nothing is the greatest accomplishment of all</h3>
-                        </div> -->
-                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="col-md-12">
                             <h1 class="text-center election-text" data-wow-delay="0.2s">ELECTION LIVE IN </h1>
                         </div>
 
@@ -114,30 +107,23 @@
 
                         <div class="d-flex flex-column flex-md-row col-12 align-items-center justify-content-center">
                             <div class="col-12 col-lg-6 my-1">
-                               
+
                                 <div class="row col-12 align-items-center">
-                         
-                                    <iframe 
-                                    title="polymarket-market-iframe" 
-                                    src="https://embed.polymarket.com/market.html?market=will-donald-trump-win-the-2024-us-presidential-election&features=volume&theme=light" 
-                                    width="400" 
-                                    height="180" 
-                                    frameBorder="0"></iframe>
-                                   
+
+                                    <iframe title="polymarket-market-iframe"
+                                        src="https://embed.polymarket.com/market.html?market=will-donald-trump-win-the-2024-us-presidential-election&features=volume&theme=light"
+                                        width="400" height="180" frameBorder="0"></iframe>
+
                                 </div>
 
                             </div>
                             <div class="col-12 col-lg-6 my-1">
-                              
+
                                 <div class="row col-12 align-items-center">
-                                    <iframe 
-                                    title="polymarket-market-iframe" 
-                                    src="https://embed.polymarket.com/market.html?market=will-kamala-harris-win-the-2024-us-presidential-election&features=volume&theme=light" 
-                                    width="400" 
-                                    height="180" 
-                                    frameBorder="0" 
-                                   ></iframe>
-                                   
+                                    <iframe title="polymarket-market-iframe"
+                                        src="https://embed.polymarket.com/market.html?market=will-kamala-harris-win-the-2024-us-presidential-election&features=volume&theme=light"
+                                        width="400" height="180" frameBorder="0"></iframe>
+
                                 </div>
                             </div>
 
@@ -145,12 +131,14 @@
 
 
                         </div>
-                        <!-- <div class="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-                            <a href="#" class="btn more-btn mr-3">Whitepaper</a>
-                            <a href="#" class="btn more-btn">Buy Token</a>
-                        </div> -->
+
                     </div>
                 </div>
+
+                <div class="col-lg-5 pl-0 order-2 order-md-1 mt-5 mt-md-0">
+                    <img src="img/core-img/header-img2.png" alt="">
+                </div>
+
 
             </div>
         </div>
@@ -193,7 +181,7 @@
     </section>
     <!-- ##### About Us Area End ##### -->
 
-    <section class="clearfix" id="manifesto">
+    <section class="clearfix hidden-sm" id="manifesto">
 
         <div class="d-flex flex-column flex-md-row align-items-md-stretch justify-content-center align-items-center">
             <div class="col-12 col-md-6 kamala-section py-4 pl-3">
@@ -219,7 +207,7 @@
                                 <li class="list-it">Increased tax for the highest earners.</li>
                             </ul>
                         </div>
-                      
+
                     </div>
                 </div>
                 <div class="row col-12 justify-content-center align-items-center">
@@ -228,7 +216,7 @@
                     </div>
                     <div class="col-6">
                         <div class="my-4">
-                            <h1 class="small-agenda-header">Economic Reforms </h1>
+                            <h1 class="small-agenda-header">Economic Reform</h1>
                             <div>
                                 <ul>
                                     <li class="list-it">Mortgage Assistance and tax-credit for parents of newborns</li>
@@ -276,7 +264,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <h1 class="agenda-header">Economic Reforms</h1>
+                        <h1 class="agenda-header">Economic Reform</h1>
                         <div>
                             <ul>
                                 <li class="list-it-rt">Reduce housing through home building programme. </li>
@@ -330,6 +318,147 @@
 
     </section>
 
+    <section class="manifesto-mobile hidden-lg">
+        <div class="kamala-man-mobile py-4 relative">
+            <h1 class="text-white header-kamala-mob ml-1">“The American Dream Belongs To All Of Us.”</h1>
+            <ul class="ml-1">
+                <li class="list-it">Kamala Harris</li>
+            </ul>
+
+            <div class="d-flex justify-content-center align-items-end">
+                <div class="col-6 mb-5">
+                    <h1 class="agenda-header">Taxes</h1>
+                    <div>
+                        <ul>
+                            <li class="list-it">Increase Corporate Tax to 35% from 21%.</li>
+                            <li class="list-it">Increased tax for the highest earners.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 d-flex flex-column">
+                    <div class="mb-4">
+                        <h1 class="agenda-header">Immigration</h1>
+                        <div>
+                            <ul>
+                                <li class="list-it">Softer immigration laws.</li>
+                                <li class="list-it">Easy pathway to citizenship for immigrants.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="agenda-header">Climate Change</h1>
+                        <div>
+                            <ul>
+                                <li class="list-it">Limitation and possible ban on fracking</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="col-9 mb-4">
+                    <h1 class="agenda-header">Gender Rights and Abortion</h1>
+                    <div>
+                        <ul>
+                            <li class="list-it">Better reproductive rights and unregulated right to abortion.</li>
+                            <li class="list-it">Tax-funded gender surgeries for children and prisoners.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-8">
+                    <h1 class="agenda-header">Economic Reform</h1>
+                    <div>
+                        <ul>
+                            <li class="list-it">Mortgage Assistance and tax-credit for parents of newborns</li>
+                            <li class="list-it">$50k tax credit for small and new businesses</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="absolute-pics">
+                <img src="img/core-img/kam-pod.png" class="img-pod" alt="">
+            </div>
+
+        </div>
+        <div class="donald-man-mobile py-4 relative">
+            <h1 class="text-white header-donald-mob mr-1">“Together, we will Make America Great Again”</h1>
+            <ul class="mr-1">
+                <li class="list-it-d">Donald Trump</li>
+            </ul>
+
+            <div class="d-flex justify-content-center">
+                <div class="col-6 d-flex flex-column align-items-end">
+                    <div class="mb-5 mt-5rem">
+                        <h1 class="agenda-header">Economic Reforms</h1>
+                        <div>
+                            <ul>
+                                <li class="list-it">Reduce housing through home building programme.</li>
+                                <li class="list-it">Keep the U.S. dollar as the world's reserve currency</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="mb-2">
+                        <h1 class="agenda-header">Warfare</h1>
+                        <div>
+                            <ul>
+                                <li class="list-it">Dissociate the US from wars and conflicts worldwide.</li>
+                                <li class="list-it">Strengthen and modernize the military</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-6 d-flex flex-column align-items-start">
+                    <div class="mb-4 mt-2">
+                        <h1 class="agenda-header">Taxes</h1>
+                        <div>
+                            <ul>
+                                <li class="list-it">Cut corporate tax to 15%.</li>
+                                <li class="list-it">Remove Income tax on tips, Social Security, and overtime pay.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="agenda-header">Border Security</h1>
+                        <div>
+                            <ul>
+                                <li class="list-it">Enforce stricter immigration laws.</li>
+                                <li class="list-it">Mass deportation of illegal immigrants.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="col-9">
+                    <h1 class="agenda-header">Criminal Justice Reform</h1>
+                    <div>
+                        <ul>
+                            <li class="list-it">Ensure the first amendment is fully enforced.</li>
+                            <li class="list-it">Uphold the 2nd Amendment and gun rights.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="absolute-pics">
+                <img src="img/core-img/trump-pod.png" class="img-pod" alt="">
+            </div>
+
+        </div>
+
+
+    </section>
+
     <section class="white-house" id="tokenomics">
         <div class="container white-house-container">
             <div class="d-flex justify-content-center">
@@ -351,7 +480,7 @@
                         <h5 class="text-center blood-red hidden-sm">TRUMPNOMICS?</h5>
                         <h5 class="text-center blood-red hidden-sm">KAMALANOMICS??</h5>
                     </div>
-                    <h5 class="text-center">Supply Information</h5>
+                    <!-- <h5 class="text-center">Supply Information</h5> -->
                 </div>
                 <div class="col-3 d-flex flex-column align-items-center justify-content-center ml-1">
 
@@ -367,7 +496,7 @@
                 </div>
 
             </div>
-            <div class="row justify-content-center face-down">
+            <!-- <div class="row justify-content-center face-down">
                 <div class="col-3 row align-items-center justify-content-center">
                     <div>
                         <img src="img/core-img/4.png" class="" alt="">
@@ -390,7 +519,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
         </div>
     </section>
@@ -445,7 +574,8 @@
                             You can also buy Sol from a Centralized exchange and send to your wallet.
                         </p>
                         <div>
-                            <a href="https://phantom.app/learn/guides/how-to-buy-ethereum-eth-polygon-matic-and-solana-sol" target="_blank" class="btn blue-btn">SEE MORE</a>
+                            <a href="https://phantom.app/learn/guides/how-to-buy-ethereum-eth-polygon-matic-and-solana-sol"
+                                target="_blank" class="btn blue-btn">SEE MORE</a>
                         </div>
 
                     </div>
@@ -490,7 +620,11 @@
 
     <section class="d-flex justify-content-center white-house-plain relative">
         <div class="d-flex justify-content-center align-items-end abs">
-            <img src="img/core-img/Frame 34220.png" class="speech-img" alt="">
+            <div class="col-8 col-lg-12">
+                <img src="img/core-img/Frame 34220.png" class="" alt="">
+
+            </div>
+          
         </div>
 
     </section>
@@ -507,7 +641,7 @@
             </div>
         </div> -->
         <div class="container">
-            <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column justify-content-center align-items-center">
 
                 <h2 class="fadeInUp text-center orange-text" data-wow-delay="0.3s">Disclaimer</h2>
                 <h5 class="fadeInUp text-center" data-wow-delay="0.4s">Please be advised that <span
@@ -519,7 +653,11 @@
                     association between <span class="orange-text">$Potus</span> characters and any politician is purely
                     coincidental
                     and intended for entertainment or humorous purposes only.</h5>
-                <img src="img/core-img/15.svg" class="small-img" alt="">
+                <div class="col-12 col-lg-8">
+                    <img src="img/core-img/15.svg" class="" alt="">
+
+                </div>
+
 
 
             </div>
@@ -541,19 +679,19 @@
                 <div class="footer-social-info fadeInUp justify-content-space-between" data-wow-delay="0.4s">
                     <a href="https://x.com/potusolana" target="_blank"> <img src="img/core-img/SVG.svg" class="svg-img"
                             alt=""></a>
-                    <a href="https://t.me/potusolanaportal" target="_blank"> <img src="img/core-img/tel.svg" class="tel-img social-space"
-                            alt=""></a>
-                    <a href="https://x.com/TanonTron" target="_blank"> <img src="img/core-img/gh.svg" class="gh-img social-space"
-                            alt=""></a>
-                    <a href="https://x.com/TanonTron" target="_blank"> <img src="img/core-img/ico.svg" class="ico-img social-space"
-                            alt=""></a>
+                    <a href="https://t.me/potusolanaportal" target="_blank"> <img src="img/core-img/tel.svg"
+                            class="tel-img social-space" alt=""></a>
+                    <a href="https://x.com/TanonTron" target="_blank"> <img src="img/core-img/gh.svg"
+                            class="gh-img social-space" alt=""></a>
+                    <a href="https://x.com/TanonTron" target="_blank"> <img src="img/core-img/ico.svg"
+                            class="ico-img social-space" alt=""></a>
 
                 </div>
 
             </div>
 
         </div>
-        <img src="img/core-img/1.png" alt="">
+        <img src="img/core-img/1.png" alt="" class="footer-image mb-0">
     </footer>
     <!-- ##### Footer Area End ##### -->
 
@@ -593,6 +731,27 @@
                 console.error('Failed to copy: ', err);
             });
         }
+    </script>
+
+    <script>
+        // script.js
+
+        document.getElementById("iconLink").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent navigation if it's a link
+
+            const icon = this.querySelector("i");
+
+            // Toggle between the "fa-home" and "fa-check" classes
+            if (icon.classList.contains("fa-home")) {
+                icon.classList.replace("fa-home", "fa-check");
+            } else {
+                icon.classList.replace("fa-check", "fa-home");
+            }
+
+            // Optional: Add active state styling
+            this.classList.toggle("active");
+        });
+
     </script>
 
 
